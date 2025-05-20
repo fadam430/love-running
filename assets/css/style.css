@@ -74,7 +74,7 @@ h1 {
 /* Main */
 main {
     background-color: lightblue;
-    /* Make main element take upsurplus space to push footer down */
+    /* Make main element take up surplus space to push footer down */
     flex: 1 0 auto;
     margin-top: 47px;
 }
