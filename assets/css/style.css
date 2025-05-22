@@ -184,20 +184,42 @@ main {
     background-size: cover;
     background-position: 75%;
     flex-grow: 1;
-    padding: 20px 10%;
+    padding: 20px 10% 0 10%;
 }
-#signup h2{
-    color: #fafafa;
-}
+
 #signup-form {
     color: #ffffff;
     background-color: rgba(60,  60, 60, .6);
     padding: 30px;
 }
+#signup-form > h2{
+    color: #fafafa;
+    padding-bottom: 20px;
+}
+
+.text-input {
+    background: transparent;
+    color: #fafafa;
+    height: 25px;
+    width: 100%;
+    margin: 5px 0 20px 0;
+    border: 1px solid #fafafa;
+    border-radius: 2px;
+    padding: 0 5px;
+    
+}
 .radio-buttons {
     display: flex;
-    justify-content:space-between;
+    justify-content: space-between;
     width: 100%;
+}
+.join-button {
+    padding: 15px 32px;
+    margin-top: 20px;
+    border-radius: 2px;
+    background-color: #454b1b;
+    color: #fafafa;
+    font-size: 100%;
 }
 
 /* Footer */
@@ -279,6 +301,26 @@ main {
     #photos {
         column-count: 3;
         
+    }
+    
+    /* signup form */
+    #signup {
+        background-position: center;
+        position: relative;
+    }
+    #signup-form {
+        position: absolute;
+        max-width: 400px;
+        top: 150px;
+        left: 10%;
+    }
+    .text-input:hover {
+        border-color: #f16c6b;
+    }
+
+    .join-button:hover {
+        background-color: #fafafa;
+        color: #454b1b;
     }
 
 }
