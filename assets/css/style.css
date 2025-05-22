@@ -189,12 +189,12 @@ main {
 
 #signup-form {
     color: #ffffff;
-    background-color: rgba(60,  60, 60, .6);
+    background-color: rgba(60,  60, 60, 0.6);
     padding: 30px;
 }
 #signup-form > h2{
     color: #fafafa;
-    padding-bottom: 20px;
+    margin-bottom: 20px;
 }
 
 .text-input {
@@ -302,7 +302,7 @@ main {
         column-count: 3;
         
     }
-    
+
     /* signup form */
     #signup {
         background-position: center;
