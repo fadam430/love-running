@@ -167,6 +167,15 @@ main {
     /* override the heading color set in general style */
     color: #fafafa;
 }
+
+#photos img {
+    width: 100%;
+    line-height: 1em;
+}
+#photos {
+    line-height: 0;
+}
+
 /* Footer */
 #social-network {
     text-align: center;
