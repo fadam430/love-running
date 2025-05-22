@@ -81,6 +81,9 @@ main {
     /* Make main element take up surplus space to push footer down */
     flex: 1 0 auto;
     margin-top: 47px;
+    /* enable flex properties for child elements */
+    display: flex;
+    flex-direction: column;
 }
 /* hero section */
 #hero {
@@ -174,6 +177,27 @@ main {
 }
 #photos {
     line-height: 0;
+}
+/* sign up form */
+#signup {
+    background: url("../images/signup-image.webp");
+    background-size: cover;
+    background-position: 75%;
+    flex-grow: 1;
+    padding: 20px 10%;
+}
+#signup h2{
+    color: #fafafa;
+}
+#signup-form {
+    color: #ffffff;
+    background-color: rgba(60,  60, 60, .6);
+    padding: 30px;
+}
+.radio-buttons {
+    display: flex;
+    justify-content:space-between;
+    width: 100%;
 }
 
 /* Footer */
